@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e570e17b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Sanika</span><br>Bandal From MMCOE</h1>
+
+            </div>
+        </div>
+    </div>
+    <!---- -------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! !'m a 20-year-old Computer Science Engineering
+                        student on a journey to explore the
+                        digital world one code at a time
+                        Currently, !'m in TE pursuing my BE from
+                        MMCOE,Pune and l'm absolutely thrilled
+                        to share my passion for technology with
+                        you.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul><li><span>UI/UX</span><br>Designing Web/App Interfaces</li></ul>
+                            <ul><li><span>Web Development</span><br>Web App Development</li></ul>
+                            <ul><li><span>App Development</span><br>Building Android/iOS Apps</li></ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul><li><span>Virtual Reality Based Solution for Training Medical Student</span></li></ul>
+                            <ul><li><span>Employee Management system</span></li></ul>
+                            <ul><li><span>Online Shopping App</span></li></ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul><li><span>2025</span><br>BTech from MMCOE Pune.</li></ul>
+                            <ul><li><span>2021</span><br>12th from SSVM Pune.</li></ul>
+                            <ul><li><span>2019</span><br>10th from Mar Ivanios Convent High School Pune.</li></ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------achievements---------->
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="achievements-list">
+                <div>
+                    <i class="fa-solid fa-industry"></i>
+                    <h2>Data Structures with Industry Aspects</h2>
+                    <p>Successfully completed Skill Development Program on "Data Structures with Industry Aspects" held during 4th August to 26th August 2023 organized by MMCOE Pune. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Industrial Training on Data Analysis with MySQL</h2>
+                    <p>Successfully completed live Industrial Training on "Data Analysis with MySQL" held during 28th August to 1st September 2023 organized by IIT Roorkee. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Exploratory Data Analysis</h2>
+                    <p>Participated in the "Exploratory Data Analysis" sessions conducted during 24th September to 26th September 2023 organized by MMCOE Pune. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python and Machine Learning</h2>
+                    <p>Successfully completed Skill Development Program on "Python and Machine Learning" conducted during 10th September to 5th November 2023 organized by MMCOE Pune. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>DSA Busted</h2>
+                    <p>Successfully completed 30 Days of DSA boot camp conductd by the Google Developer Student Club  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Programming Fundamentals and Personality Development</h2>
+                    <p>Successfully completed the course on "Python Programming Fundamentals and Personality Development" held during Jan to June 2022 conducted by IIT Kharagpur. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Virtual Reality Based Solution for Training Medical Student</h3>
+                        <p>Provides a 3D and dynamic view of structures and to allow the user to interact with 
+                            them. Enables student to experience training in hands-on procedures.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Employee Management system</h3>
+                        <p>Employee Management system is a Web Application developed for easy
+                            management of employee information.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app enables customers to browse through a company products and services on tablet computers and smartphones. Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sanvika1433@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8275958535</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder=""Your Message></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sanika Bandal</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxTnFCtw02EFmw6pDhaEbOGOQ4n81kG4m52_kXDcwKxSl1V7doRGAgrKMR6RLQEedo8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent succeessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
